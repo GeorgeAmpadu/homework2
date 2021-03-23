@@ -7,9 +7,6 @@ class Form extends Component {
             name: "", 
             url: ""
         } 
-        /*
-            TODO - set initial state for link name and URL 
-        */
        this.handleChange = this.handleChange.bind(this); 
        this.onFormSubmit = this.onFormSubmit.bind(this);
     }
