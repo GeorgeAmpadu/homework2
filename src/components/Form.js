@@ -29,9 +29,6 @@ class Form extends Component {
         // to prevent page reload on form submit
         event.preventDefault();
         
-        /*
-            TODO - Logic for calling props to handle submission and setting state changes
-        */
         let name = this.state.name;
         let url = this.state.url;
         let obj = {name, url};
